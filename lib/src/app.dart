@@ -10,6 +10,7 @@ class App extends StatelessWidget
   Widget build(context) 
   {
     return const MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Stateful Login',
       home: Scaffold(
         body: LoginScreen(),
